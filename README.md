@@ -3,4 +3,4 @@
 > - Mouvement vers la droite : D
 > - Animation d'attaque : A
 > - Saut : SPACE_BAR
-> - Quitter : ESPACE
+> - Quitter : ESCAPE
