@@ -7,7 +7,7 @@ int main(int argc, char* argv[])
 {
 	int run;
 
-	init("Where Is The Game?!"); // initialisation de la fenetre de jeu
+	init("The Game : Python for the future"); // initialisation de la fenetre de jeu
 
 	loadGame(); // on va charger notre jeu
 	initPlayer(); // puis on init le player
@@ -23,7 +23,7 @@ int main(int argc, char* argv[])
 		drawGame();
 	}
 
-	cleanup(); // appelle de fonction pour supprimé les données
+	cleanup(); // appelle de fonction pour supprimï¿½ les donnï¿½es
 
 	system("pause");
 	return 0;
@@ -66,11 +66,11 @@ void getInput(Input* input)
 				input->attack = 1;
 				break;
 
-			case SDLK_q: // touche q pour aller à gauche
+			case SDLK_q: // touche q pour aller a gauche
 				input->left = 1;
 				break;
 
-			case SDLK_d: // touche d pour aller à droite
+			case SDLK_d: // touche d pour aller a droite
 				input->right = 1;
 				break;
 
